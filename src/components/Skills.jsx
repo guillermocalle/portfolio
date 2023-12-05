@@ -6,7 +6,7 @@ import SkillItem from './SkillItem'
 const Skills = () => {
   return (
     <div className='py-12'>
-      <SectionTitle>Skills & Tools</SectionTitle>
+      <SectionTitle>Habilidades & Herramientas</SectionTitle>
       <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5'>
         {skills.map(skill => (
           <SkillItem
